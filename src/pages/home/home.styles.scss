@@ -1,0 +1,77 @@
+.home-page {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+    .banner-photo-container {
+        height: 840px;
+        display: flex;
+        justify-content: center;
+       
+
+        .banner-photo {
+            object-fit: cover;
+            width: 100%;
+            height: auto;
+        }     
+
+        .button {
+            position: absolute;
+            top: 42%;
+            padding: 10px 30px;
+            color: white;
+            font-size: 60px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:rgb(35, 48, 73);
+            opacity: 0.7;
+            
+        }
+
+        .button:hover {
+            transition: all 0.3s ease;
+            background-color:rgb(21, 84, 136);
+            opacity: 1;
+            cursor: pointer;
+        }
+
+    }
+
+  
+
+    .home-page-body {
+        margin-top: 80px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        font-size: 22px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: #ffffff9a;
+        margin-bottom: 40px;
+
+        
+
+        .body-text-container {
+            width: 40%;
+            padding: 100px 0px;
+            justify-content: space-between;  
+        }
+
+        .Gallery {
+            margin-top: 4px;
+            justify-content: space-between;
+        }
+
+        .Gallery-2 {
+            margin-top: 4px;
+            justify-content: space-between;
+        }
+    }
+}
