@@ -1,19 +1,18 @@
 import React from 'react';
 import './home.styles.scss';
 import BannerPhoto from '../../assets/sonoa-sitting.jpeg';
+import { Link } from 'react-router-dom';
 
 const HomePage = () => (
     <div className='home-page'>
         
         <div className='banner-photo-container'>
             <img className='banner-photo' src={BannerPhoto} alt={'Banner Photo'}/>
-            <button className='button' onClick={(e) => {
-                e.preventDefault();
-                window.location.pathname='/music';
-                }}>New Music!</button>
+            <Link className='button' to='/music'>
+                MUSIC PLAYER
+            </Link>
         </div>
        
-        
 
         <div className='home-page-body'>
             
