@@ -1,10 +1,20 @@
 .contact-page {
     padding-top: 320px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #dbebffd0;
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-top: 100px;
+   
 }

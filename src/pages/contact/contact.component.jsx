@@ -3,9 +3,15 @@ import { Route } from 'react-router-dom';
 import './contact.styles.scss';
 
 const ContactPage = () => (
-    <div className='music-page'>
+    <div className='contact-page'>
         CONTACT PAGE
+        
+
+        <div className='message'>
+            yooo hmu ;) !!!
     </div>
+    </div>
+    
 );
 
 export default ContactPage;

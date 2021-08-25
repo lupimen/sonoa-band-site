@@ -4,8 +4,16 @@ import './music.styles.scss';
 
 const MusicPage = () => (
     <div className='music-page'>
-        MUSIC PAGE 
+    
+    <button className='music-button' onClick={(e) => {
+        e.preventDefault();
+        window.open('https://sonoa-music-player.netlify.app/','_blank');
+        }}>
+        MUSIC PLAYER
+    </button>
+
     </div>
+    
 );
 
 export default MusicPage;

@@ -7,4 +7,25 @@
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+
+
+    .music-button {
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        align-items: center;
+        color: #dbebffd0;
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        padding: 20px 20px;
+    }
+    
+    .music-button:hover {
+        font-size: 52px;
+        cursor: pointer;
+        background-color: rgb(11, 62, 104); 
+    }
+    
 }
+

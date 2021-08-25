@@ -8,7 +8,10 @@ const HomePage = () => (
         
         <div className='banner-photo-container'>
             <img className='banner-photo' src={BannerPhoto} alt={'Banner Photo'}/>
-            <button className='button'>Music Player</button>
+            <button className='button' onClick={(e) => {
+                e.preventDefault();
+                window.location.href='/music';
+                }}>New Music!</button>
         </div>
        
         
