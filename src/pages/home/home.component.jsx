@@ -2,7 +2,6 @@ import React from 'react';
 import './home.styles.scss';
 import BannerPhoto from '../../assets/sonoa-sitting.jpeg';
 
-
 const HomePage = () => (
     <div className='home-page'>
         
@@ -10,7 +9,7 @@ const HomePage = () => (
             <img className='banner-photo' src={BannerPhoto} alt={'Banner Photo'}/>
             <button className='button' onClick={(e) => {
                 e.preventDefault();
-                window.location.href='/music';
+                window.location.pathname='/music';
                 }}>New Music!</button>
         </div>
        
