@@ -7,7 +7,13 @@ git add -A
 
 git commit -m "..."
 
-git push -u origin main
+git push -u origin main 
+
+^^^ if this doesn't work, try this command:
+
+git push -u destination main
+
+
 
 
 # React App
