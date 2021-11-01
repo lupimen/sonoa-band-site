@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+
+**Band Website**
+
+How to push repo here on Github from Command Line
+
+git add -A
+
+git commit -m "..."
+
+git push -u origin main
+
+
+# React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
