@@ -2,6 +2,8 @@ import React from 'react';
 import './header.styles.scss';
 import { ReactComponent as Logo } from '../../assets/logo.svg';
 import { Link } from 'react-router-dom';
+import MenuIcon from '@material-ui/icons/Menu';
+
 
 const Header = () => (
     <div className='header'>
@@ -9,6 +11,8 @@ const Header = () => (
         <Link className='logo-container' to="/">
             <Logo className='logo' />
         </Link>
+
+        <MenuIcon className='menu-icon' style={{ fontSize: 80, cursor: 'pointer' }} />
 
 
             <div className='options'>

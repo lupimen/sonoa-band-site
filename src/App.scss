@@ -1,7 +1,15 @@
+@import './breakpoints/breakpoints.scss';
+
+$orange: #ff9b54;
+$purple: #ae76a6;
+$blue: #a3c3d9;
+@lOrange: #f8bd7f;
+@gray: #efefef;
+
+
 body {
  margin: 0;
  background-color: #1f253f;
-
 }
 
 a {

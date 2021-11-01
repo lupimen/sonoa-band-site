@@ -1,9 +1,48 @@
+@import '../../breakpoints/breakpoints.scss';
+
+$orange: #ff9b54;
+$purple: #ae76a6;
+$blue: #a3c3d9;
+@lOrange: #f8bd7f;
+@gray: #efefef;
+
 .header {
     height: 100px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: black;
+
+    .menu-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+              @include media('<=phone') {
+                background-color: $orange;
+                color: white;
+                &:before {
+                    content: "Phone viewport"
+                }
+            }
+
+              @include media('>phone', '<=425px') {
+                background-color: $purple;
+                color: white;
+                &:before {
+                    content: "Large Phone viewport"
+                }
+            }
+
+
+              @include media('>=tablet', '<desktop') {
+                background-color: $blue;
+                color: white;
+                &:before {
+                    content: "Greater than tablet and smaller than desktop"
+                }
+            }
     
   
     .logo-container {
@@ -15,6 +54,14 @@
       border-radius: 100%;
       margin-left: 100px;
       margin-top: 20px;
+
+      @include media('<=phone') {
+        display: none;
+    }
+
+      @include media('>phone', '<=425px') {
+        display: none;
+    }
 
 
     .title {
@@ -32,6 +79,14 @@
       align-items: center;
       justify-content: flex-end;
       padding-right: 30px;
+      @include media('<=phone') {
+        display: none;
+    }
+
+      @include media('>phone', '<=425px') {
+        display: none;
+    }
+      
       
   
       .option {
